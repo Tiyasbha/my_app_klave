@@ -4,17 +4,31 @@
     "author": "Tiyasha <tiyasha.bhattacharjee@idemia.com> (https://github.com/Tiyasbha)",
     "version": "0.0.0",
     "license": "MIT",
-    "repository": "https://github.com/Tiyasbha/my_app_klave",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tiyasbha/my_app_klave.git"
+    },
     "scripts": {
         "build": "stac ."
     },
     "devDependencies": {
         "@klave/sdk": "0.13.0",
+        "@types/node": "^22.9.0",
         "as-base64": "0.2.0",
-        "assemblyscript": "^0.27.26",
+        "assemblyscript": "^0.25.2",
         "path-complete-extname": "1.0.0",
         "tslib": "^2.6.2",
+        "typescript": "^5.6.3",
         "visitor-as": "^0.11.4",
         "zod": "^3.22.4"
-    }
+    },
+    "dependencies": {
+        "@secretarium/connector": "^0.12.4"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/Tiyasbha/my_app_klave/issues"
+    },
+    "homepage": "https://github.com/Tiyasbha/my_app_klave#readme"
 }
