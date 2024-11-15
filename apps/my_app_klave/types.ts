@@ -27,3 +27,21 @@ export class StoreInput {
 export class StoreOutput {
     success!: boolean;
 }
+
+
+export interface FxRateData {
+    // Define the properties of FxRateData here
+    rate: number;
+    currency: string;
+    success: boolean; // Add success property
+    // Add other properties as needed
+}
+
+// types.ts
+export interface FxRateResult {
+    // Define the properties of FxRateResult here
+    rate: number;
+    // currency: string;
+    success: boolean; // Add success property
+    // Add other properties as needed
+}
